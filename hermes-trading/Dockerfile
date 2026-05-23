@@ -7,5 +7,6 @@ COPY pyproject.toml ./
 COPY hermes_trading ./hermes_trading
 COPY state ./state
 RUN uv pip install .
+RUN pip install pyyaml
 ENV HERMES_TRADING_MODE=paper
 CMD ["python", "-m", "hermes_trading.run"]
