@@ -1,4 +1,4 @@
 numpy
 pandas
-talib-binary # Wymagany dla technicznych wskaźników analizy
+TA-Lib # Wymagany dla technicznych wskaźników analizy
 alpaca-py # Jeśli planujesz używać Alpaca Markets
